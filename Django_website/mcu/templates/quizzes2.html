@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html> 
+    <head> <meta charset="utf-8"> 
+        <title>Welcome to the MCU! Take a Quiz to See How Well You Know the MCU!</title>
+    </head> 
+    <body> 
+        <h1>Welcome to the MCU!</h1>
+        <h1>Take a Quiz to See How Well You Know the MCU!</h1>
+        <form method="POST"> {% csrf_token %} 
+            <div class="column" style="background-color:red;width:50%;"></div>
+                <label for="movie"><b>"I am iron man”:</b></label><br>
+                <input type="checkbox" name="1_1" value="Endgame">
+                <label>Endgame</label><br>
+                <input type="checkbox" name="1_2" value="Infinity War">
+                <label>Infinity War</label><br>
+                <input type="checkbox" name="1_3" value="Iron Man 3">
+                <label>Iron Man 3</label><br>
+                <input type="checkbox" name="1_4" value="Iron Man 2">
+                <label>Iron Man 2</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>"Language!”:</b></label><br>
+                <input type="checkbox" name="2_1" value="Spiderman Homecoming">
+                <label>Spiderman Homecoming</label><br>
+                <input type="checkbox" name="2_2" value="Guardians of the Galaxy">
+                <label>Guardians of the Galaxy</label><br>
+                <input type="checkbox" name="2_3" value="Captain America Civil War">
+                <label>Captain America Civil War</label><br>
+                <input type="checkbox" name="2_4" value="Antman and the Wasp">
+                <label>Antman and the wasp</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>"If you’re nothing without this suit, then you shouldn’t have it.”:</b></label><br>
+                <input type="checkbox" name="3_1" value="Black Panther">
+                <label>Black Panther</label><br>
+                <input type="checkbox" name="3_2" value="Iron man">
+                <label>Iron man</label><br>
+                <input type="checkbox" name="3_3" value="Doctor Strange">
+                <label>Doctor Strange</label><br>
+                <input type="checkbox" name="3_4" value="Spiderman Homecoming">
+                <label>Spiderman Homecoming</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>"I would rather be a good man than a great king”:</b></label><br>
+                <input type="checkbox" name="4_1" value="Thor">
+                <label>Thor</label><br>
+                <input type="checkbox" name="4_2" value="Thor The Dark World">
+                <label>Thor The Dark World</label><br>
+                <input type="checkbox" name="4_3" value="Thor Ragnorak">
+                <label>Thor Ragnorak</label><br>
+                <input type="checkbox" name="4_4" value="Thor Love and Thunder">
+                <label>Thor Love and Thunder</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>"He may have been your father, boy, but he wasn’t your daddy.”:</b></label><br>
+                <input type="checkbox" name="5_1" value="Hulk">
+                <label>Hulk</label><br>
+                <input type="checkbox" name="5_2" value="Guardians of the Galaxy volume 2">
+                <label>Guardians of the Galaxy volume 2</label><br>
+                <input type="checkbox" name="5_3" value="Antman">
+                <label>Antman</label><br>
+                <input type="checkbox" name="5_4" value="Captain  Marvel">
+                <label>Captain Marvel</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>Who said this quote: "Just because something world, doesn’t mean it can’t be improved":</b></label><br>
+                <input type="checkbox" name="6_1" value="Iron Man">
+                <label>Iron Man</label><br>
+                <input type="checkbox" name="6_2" value="Bruce Banner">
+                <label>Bruce Banner/label><br>
+                <input type="checkbox" name="6_3" value="Shuri">
+                <label>Shuri</label><br>
+                <input type="checkbox" name="6_4" value="Rocket">
+                <label>Rocket</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>Who said this quote: "Vengence has consumed you. It’s consuming them. I’m done letting it consume me.”:</b></label><br>
+                <input type="checkbox" name="7_1" value="Tchalla">
+                <label>Tchalla</label><br>
+                <input type="checkbox" name="7_2" value="Gamora">
+                <label>Gamora</label><br>
+                <input type="checkbox" name="7_3" value="Black Widow">
+                <label>Black Widow</label><br>
+                <input type="checkbox" name="7_4" value="Doctor Strange">
+                <label>Doctor Strange</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>Who said this quote: "I’m just a kid from Brooklyn.”:</b></label><br>
+                <input type="checkbox" name="8_1" value="Falcon">
+                <label>Falcon</label><br>
+                <input type="checkbox" name="8_2" value="Hawkeye">
+                <label>Hawkeye</label><br>
+                <input type="checkbox" name="8_3" value="Yelena">
+                <label>Yelena</label><br>
+                <input type="checkbox" name="8_4" value="Captain America">
+                <label>Captain America</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>Who said this quote: "As far as I’m concerned, that’s America’s ass.":</b></label><br>
+                <input type="checkbox" name="9_1" value="Antman">
+                <label>Antman</label><br>
+                <input type="checkbox" name="9_2" value="Drax">
+                <label>Drax</label><br>
+                <input type="checkbox" name="9_3" value="Happy">
+                <label>Happy</label><br>
+                <input type="checkbox" name="9_4" value="Loki">
+                <label>Loki</label><br>
+            </div><br><br>
+            <div>
+                <label for="movie"><b>Who said this quote: "We're in the Endgame now." :</b></label><br>
+                <input type="checkbox" name="10_1" value="War Machine">
+                <label>War Machine</label><br>
+                <input type="checkbox" name="10_2" value="Vision">
+                <label>Vision</label><br>
+                <input type="checkbox" name="10_3" value="Spiderman">
+                <label>Spiderman</label><br>
+                <input type="checkbox" name="10_4" value="Doctor Strange">
+                <label>Doctor Strange</label><br>
+            </div><br><br>
+            <input type="submit" value='Submit'> 
+        </form> 
+        {% if right_answers != "0" and right_answers != ""%} <p>You got, {{ right_answers }} correct answers!</p> {% endif %}
+        {% if right_answers >= "9" %} <p>Congrats! You’ve got a good memory, don’t you? Although how hard is it to remember something when you love it and it’s as amazing as the MCU is?</p> {% endif %}
+        {% if right_answers >= "7" and right_answers <= "8" %} <p>Wow, you really know your stuff! All those hours of watching the movies are really showing.</p> {% endif %}
+        {% if right_answers >= "5" and right_answers <= "6" %} <p>That’s pretty good, you must really like Marvel. There’s still room to improve though, fortunate for you, studying is just watching all the movies.</p> {% endif %}
+        {% if right_answers >= "3" and right_answers <= "4" %} <p>You got a couple of rights, but that could’ve been lucky. You need to go brush up on your MCU knowledge.</p> {% endif %}
+        {% if right_answers >= "0" and right_answers <= "2" %} <p>Are the movies not memorable enough for you? Maybe need to have subtitles on while watching.</p> {% endif %}
+
+    </body> 
+</html>
